@@ -8,21 +8,21 @@
 ### loggin library 구현체
 
 <aside>
-💬 **log4j**
+💬 log4j
 
 - 2015년을 끝으로 개발 중단
 - 기존에 표준으로 가장 많이 사용되던 라이브러리
 </aside>
 
 <aside>
-💬 **logback**
+💬 logback
 
 - Slf4j의 구현체로 spring boot에서 spring-boot-starter-logging 안에 기본적으로 포함되어 있어서 따로 dependency를 추가하지 않고 사용이 가능한 이점이 있습니다.
 - 기존의 log4j 이후 같은 개발자가 개발하여 성능이 향상
 </aside>
 
 <aside>
-💬 **Slf4j**
+💬 Slf4j
 
 - 로깅 라이브러리들을 하나의 통일된 방식으로 사용할 수 있는 방법입니다.
 - 로깅을 간단하게 사용할 수 있도록 하는 Facade
