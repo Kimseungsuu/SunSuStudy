@@ -2,7 +2,9 @@
 REST API에서 URI에 변수가 들어가는걸 실무에서 많이 볼 수 있다.
 
 예를 들면, 아래 URI에서 밑줄 친 부분이 @PathVariable로 처리해줄 수 있는 부분이다.
+
 http://localhost:8080/api/user/1234
+
 https://music.bugs.co.kr/album/4062464
 
 ## 사용법
